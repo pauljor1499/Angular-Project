@@ -1,0 +1,697 @@
+<body>
+  <!-- NAVBAR -->
+  <div class="main-header" style="background-color: rgb(21, 114, 232)">
+    <!-- Logo Header -->
+    <div class="logo-header" data-background-color="blue">
+      <a href="index.html" class="logo">
+        <img
+          src="../assets/img/main_logo.png"
+          alt="navbar brand"
+          class="navbar-brand"
+          width="150px"
+          height="30px"
+          style="margin-top: 20px"
+        />
+      </a>
+      <button
+        class="navbar-toggler sidenav-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="collapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon">
+          <i class="icon-menu"></i>
+        </span>
+      </button>
+      <button class="topbar-toggler more">
+        <i class="icon-options-vertical"></i>
+      </button>
+      <div class="nav-toggle">
+        <button class="btn btn-toggle toggle-sidebar" style="margin-top: 25px">
+          <i class="icon-menu"></i>
+        </button>
+      </div>
+    </div>
+    <!-- End Logo Header -->
+
+    <!-- Navbar Header -->
+    <nav
+      class="navbar navbar-header navbar-expand-lg"
+      data-background-color="blue2"
+    >
+      <div class="container-fluid">
+        <!-- <div class="collapse" id="search-nav" style="margin-top: 12px;">
+          <form class="navbar-left navbar-form nav-search mr-md-3">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button type="submit" class="btn btn-search pr-1">
+                  <i class="fa fa-search search-icon"></i>
+                </button>
+              </div>
+              <input
+                type="text"
+                placeholder="Search ..."
+                class="form-control"
+              />
+            </div>
+          </form>
+        </div> -->
+        <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+          <li class="nav-item toggle-nav-search hidden-caret">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#search-nav"
+              role="button"
+              aria-expanded="false"
+              aria-controls="search-nav"
+            >
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown hidden-caret">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="messageDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa fa-envelope"></i>
+            </a>
+            <ul
+              class="dropdown-menu messages-notif-box animated fadeIn"
+              aria-labelledby="messageDropdown"
+            >
+              <li>
+                <div
+                  class="
+                    dropdown-title
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  Messages
+                  <a href="#" class="small">Mark all as read</a>
+                </div>
+              </li>
+              <li>
+                <div class="message-notif-scroll scrollbar-outer">
+                  <div class="notif-center">
+                    <a href="#">
+                      <div class="notif-img">
+                        <img
+                          src="../assets/img/jm_denis.jpg"
+                          alt="Img Profile"
+                        />
+                      </div>
+                      <div class="notif-content">
+                        <span class="subject">Jimmy Denis</span>
+                        <span class="block"> How are you ? </span>
+                        <span class="time">5 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-img">
+                        <img
+                          src="../assets/img/chadengle.jpg"
+                          alt="Img Profile"
+                        />
+                      </div>
+                      <div class="notif-content">
+                        <span class="subject">Chad</span>
+                        <span class="block"> Ok, Thanks ! </span>
+                        <span class="time">12 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-img">
+                        <img src="../assets/img/mlane.jpg" alt="Img Profile" />
+                      </div>
+                      <div class="notif-content">
+                        <span class="subject">Jhon Doe</span>
+                        <span class="block">
+                          Ready for the meeting today...
+                        </span>
+                        <span class="time">12 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-img">
+                        <img src="../assets/img/talha.jpg" alt="Img Profile" />
+                      </div>
+                      <div class="notif-content">
+                        <span class="subject">Talha</span>
+                        <span class="block"> Hi, Apa Kabar ? </span>
+                        <span class="time">17 minutes ago</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a class="see-all" href="javascript:void(0);"
+                  >See all messages<i class="fa fa-angle-right"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown hidden-caret">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="notifDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa fa-bell"></i>
+              <span class="notification">4</span>
+            </a>
+            <ul
+              class="dropdown-menu notif-box animated fadeIn"
+              aria-labelledby="notifDropdown"
+            >
+              <li>
+                <div class="dropdown-title">You have 4 new notification</div>
+              </li>
+              <li>
+                <div class="notif-scroll scrollbar-outer">
+                  <div class="notif-center">
+                    <a href="#">
+                      <div class="notif-icon notif-primary">
+                        <i class="fa fa-user-plus"></i>
+                      </div>
+                      <div class="notif-content">
+                        <span class="block"> New user registered </span>
+                        <span class="time">5 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-icon notif-success">
+                        <i class="fa fa-comment"></i>
+                      </div>
+                      <div class="notif-content">
+                        <span class="block"> Rahmad commented on Admin </span>
+                        <span class="time">12 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-img">
+                        <img
+                          src="../assets/img/profile2.jpg"
+                          alt="Img Profile"
+                        />
+                      </div>
+                      <div class="notif-content">
+                        <span class="block"> Reza send messages to you </span>
+                        <span class="time">12 minutes ago</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="notif-icon notif-danger">
+                        <i class="fa fa-heart"></i>
+                      </div>
+                      <div class="notif-content">
+                        <span class="block"> Farrah liked Admin </span>
+                        <span class="time">17 minutes ago</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a class="see-all" href="javascript:void(0);"
+                  >See all notifications<i class="fa fa-angle-right"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown hidden-caret">
+            <a
+              class="nav-link"
+              data-toggle="dropdown"
+              href="#"
+              aria-expanded="false"
+            >
+              <i class="fas fa-layer-group"></i>
+            </a>
+            <div
+              class="
+                dropdown-menu
+                quick-actions quick-actions-info
+                animated
+                fadeIn
+              "
+            >
+              <div class="quick-actions-header">
+                <span class="title mb-1">Quick Actions</span>
+                <span class="subtitle op-8">Shortcuts</span>
+              </div>
+              <div class="quick-actions-scroll scrollbar-outer">
+                <div class="quick-actions-items">
+                  <div class="row m-0">
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-file-1"></i>
+                        <span class="text">Generated Report</span>
+                      </div>
+                    </a>
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-database"></i>
+                        <span class="text">Create New Database</span>
+                      </div>
+                    </a>
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-pen"></i>
+                        <span class="text">Create New Post</span>
+                      </div>
+                    </a>
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-interface-1"></i>
+                        <span class="text">Create New Task</span>
+                      </div>
+                    </a>
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-list"></i>
+                        <span class="text">Completed Tasks</span>
+                      </div>
+                    </a>
+                    <a class="col-6 col-md-4 p-0" href="#">
+                      <div class="quick-actions-item">
+                        <i class="flaticon-file"></i>
+                        <span class="text">Create New Invoice</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown hidden-caret">
+            <a
+              class="dropdown-toggle profile-pic"
+              data-toggle="dropdown"
+              href="#"
+              aria-expanded="false"
+            >
+              <div class="avatar-sm">
+                <img
+                  src="../assets/img/my_profile.jpg"
+                  alt="..."
+                  class="avatar-img rounded-circle"
+                />
+              </div>
+            </a>
+            <ul class="dropdown-menu dropdown-user animated fadeIn">
+              <div class="dropdown-user-scroll scrollbar-outer">
+                <li>
+                  <div class="user-box">
+                    <div class="avatar-lg">
+                      <img
+                        src="../assets/img/my_profile.jpg"
+                        alt="image profile"
+                        class="avatar-img rounded"
+                      />
+                    </div>
+                    <div class="u-text">
+                      <h4>Paul Vincent L. Jor</h4>
+                      <p class="text-muted">jorpaulvincent@gmail.com</p>
+                      <a
+                        href="profile.html"
+                        class="btn btn-xs btn-secondary btn-sm"
+                        >View Profile</a
+                      >
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">My Profile</a>
+                  <a class="dropdown-item" href="#">My Balance</a>
+                  <a class="dropdown-item" href="#">Inbox</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Account Setting</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </li>
+              </div>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End Navbar -->
+
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar sidebar-style-2">
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <div class="user">
+            <div class="avatar-sm float-left mr-2">
+              <img
+                src="../assets/img/my_profile.jpg"
+                alt="..."
+                class="avatar-img rounded-circle"
+              />
+            </div>
+            <div class="info">
+              <a
+                data-toggle="collapse"
+                href="#collapseExample"
+                aria-expanded="true"
+              >
+                <span>
+                  Paul Vincent L. Jor
+                  <span class="user-level">Administrator</span>
+                  <span class="caret"></span>
+                </span>
+              </a>
+              <div class="clearfix"></div>
+
+              <div class="collapse in" id="collapseExample">
+                <ul class="nav">
+                  <li>
+                    <a href="#profile">
+                      <span class="link-collapse">My Profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#edit">
+                      <span class="link-collapse">Edit Profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#settings">
+                      <span class="link-collapse">Settings</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="nav nav-primary">
+            <li class="nav-item">
+              <a
+                data-toggle="collapse"
+                routerLink="/dashboard"
+                class="collapsed"
+                aria-expanded="false"
+              >
+                <i class="fas fa-home"></i>
+                <p>Dashboard</p>
+                <!-- <span class="caret"></span> -->
+              </a>
+            </li>
+            <!-- Employee -->
+            <li class="nav-item active">
+              <a data-toggle="collapse" href="#employee" aria-expanded="true">
+                <i class="fas fa-users"></i>
+                <p>Employee</p>
+                <span class="badge badge-success">{{ total_emp }}</span>
+                <span class="caret"></span>
+              </a>
+              <div class="" id="employee">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a routerLink="/employee_list">
+                      <span class="sub-item">Employee List</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      routerLink="/add_emp_page"
+                      style="background-color: rgb(244, 244, 244)"
+                    >
+                      <span class="sub-item">Add New Employee</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+
+    <div class="main-panel">
+      <div class="content">
+        <div class="page-inner">
+          <div class="page-header">
+            <h4 class="page-title">Add New Employee</h4>
+            <ul class="breadcrumbs">
+              <li class="nav-home">
+                <a href="#">
+                  <i class="flaticon-home"></i>
+                </a>
+              </li>
+              <li class="separator">
+                <i class="flaticon-right-arrow"></i>
+              </li>
+              <li class="nav-item">
+                <a>Employee</a>
+              </li>
+              <li class="separator">
+                <i class="flaticon-right-arrow"></i>
+              </li>
+              <li class="nav-item">
+                <a>Add New Employee</a>
+              </li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="d-flex align-items-center">
+                    <!-- <h4 class="card-title">Add Row</h4> -->
+                    <button
+                      class="btn btn-primary btn-round ml-auto"
+                      data-toggle="modal"
+                      data-target="#my_modal"
+                      (click)="open(modal_add); resetFields()"
+                    >
+                      <i class="fa fa-plus"></i>
+                      Add New Employee
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <!-- Modal -->
+                  <ng-template #modal_add let-modal>
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">
+                          <span class="fw-mediumbold">New Employee</span>
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                          (click)="modal.close()"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+
+                      <!-- Error Message -->
+                      <div
+                        class="alert alert-danger d-flex align-items-center"
+                        role="alert"
+                        *ngIf="show_alert"
+                      >
+                        <svg
+                          class="bi flex-shrink-0 me-2"
+                          width="24"
+                          height="24"
+                          role="alert"
+                          aria-label="Danger:"
+                        >
+                          <use xlink:href="#exclamation-triangle-fill" />
+                        </svg>
+                        <div>Please enter correct data for every field.</div>
+                      </div>
+
+                      <div class="modal-body">
+                        <div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <label>ID</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder=""
+                                [(ngModel)]="newEmployee.emp_id"
+                              />
+                            </div>
+                            <div class="col-md-6 pr-0" style="margin-top: 10px">
+                              <label>First Name</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="first name"
+                                [(ngModel)]="newEmployee.emp_first_name"
+                              />
+                            </div>
+                            <div class="col-md-6" style="margin-top: 10px">
+                              <label>Middle Name</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="middle name"
+                                [(ngModel)]="newEmployee.emp_middle_name"
+                              />
+                            </div>
+
+                            <div class="col-sm-6 pr-0" style="margin-top: 10px">
+                              <label>Last Name</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="last name"
+                                [(ngModel)]="newEmployee.emp_last_name"
+                              />
+                            </div>
+                            <div class="col-md-6" style="margin-top: 10px">
+                              <label>Contact Number</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="+639..."
+                                [(ngModel)]="newEmployee.emp_contact_number"
+                              />
+                            </div>
+
+                            <div class="col-sm-6 pr-0" style="margin-top: 10px">
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="address"
+                                [(ngModel)]="newEmployee.emp_address"
+                              />
+                            </div>
+                            <div class="col-md-6" style="margin-top: 10px">
+                              <label>Office</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="office"
+                                [(ngModel)]="newEmployee.emp_office"
+                              />
+                            </div>
+                            <div class="col-sm-6 pr-0" style="margin-top: 10px">
+                              <label>Position</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="position"
+                                [(ngModel)]="newEmployee.emp_position"
+                              />
+                            </div>
+                            <div class="col-md-6" style="margin-top: 10px">
+                              <label>Salary</label>
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder=""
+                                [(ngModel)]="newEmployee.emp_salary"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer no-bd">
+                        <button
+                          type="button"
+                          class="btn btn-success"
+                          style="width: 120px"
+                          (click)="
+                            validateFields() ? modal.close('add') : false
+                          "
+                        >
+                          Add
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                          style="width: 120px"
+                          (click)="modal.close()"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </ng-template>
+
+                  <div class="table-responsive">
+                    <table
+                      id="add-row"
+                      class="display table table-striped table-hover"
+                    >
+                      <thead>
+                        <tr>
+                          <th>EMPLOYEE_ID</th>
+                          <th>FIRST_NAME</th>
+                          <th>MIDDLE_NAME</th>
+                          <th>LAST_NAME</th>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <th>EMPLOYEE_ID</th>
+                        <th>FIRST_NAME</th>
+                        <th>MIDDLE_NAME</th>
+                        <th>LAST_NAME</th>
+                      </tfoot>
+                      <tbody>
+                        <tr *ngFor="let output_list of employeeList">
+                          <td>{{ output_list.emp_id }}</td>
+                          <td>{{ output_list.emp_first_name }}</td>
+                          <td>{{ output_list.emp_middle_name }}</td>
+                          <td>{{ output_list.emp_last_name }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="pull-left">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Help </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Licenses </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright ml-auto">Made by Paul Vincent L. Jor</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
